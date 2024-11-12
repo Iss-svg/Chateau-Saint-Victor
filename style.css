@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*permet aux boite de ne pas grossire quand l'on met du padding*/
+}
+
+
+body{
+    font-family: "Inter", serif;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+
+.alignCenter{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+}
+
+.btn{ 
+    background-color: #B9625D;
+    padding: 16px 55px;
+    border-radius: 15px;
+    font-size:1.5rem;
+   
+}
+
+/*HEADER*/
+
+header nav{
+width: 40%;
+}
+
+header{
+    padding: 10px 40px;
+}
+
+header img{
+    width: 15%;
+}
+
+header{
+    padding: 0px 40px;
+    background-color: #B9625D;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+
+
+/*HERO*/
+
+.hero { 
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.hero div { 
+   background-color: #aa9f9f28;/*penser a abaisser la second barre*/
+    width: 50%;
+    position: absolute; /*permet de modifier la position*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);/*permet de déplasser la div*/
+    text-align: center;
+    padding: 64px;
+    border-radius: 23px;
+    color: white;
+    backdrop-filter: blur(10px);/*permet de flouter*/
+}
+
+h1{ 
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+/*section produit*/
+
+.nosproImg{
+    background-color: #B9625D;
+}
+ 
+.imgA{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.imgB{
+    position: relative;
+}
+
+.divCard{
+    width: 67%;
+}
