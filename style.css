@@ -24,8 +24,7 @@ body{
     align-items: center;
 }
 a{
-    text-decoration: none;
-    color: white;
+   
     display: inline-block;
 }
 
@@ -38,7 +37,8 @@ li{
     padding: 16px 55px;
     border-radius: 15px;
     font-size:1.5rem;
-   
+   color: white;
+   text-decoration: none;
 }
 
 /*HEADER*/
@@ -63,6 +63,11 @@ header{
     left: 0;
     z-index: 1;
     width: 100%;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -106,18 +111,31 @@ h1{
     margin-bottom: 35px;
 }
 
-/*section produit*/
+/*section service*/
 
-.nosproImg{
-    background-color: #B9625D;
+.containerService div{
+   /* background-color: #B9625D;*/
+    width: 70%;
+    margin-left: 80px;
+    gap: 10px;
+}
+
+.containerService aside{
+   /* background-color: aqua;*/
+    width: 15%;
+    
+
 }
  
-.imgA{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-
+.containerService img{
+    width: 372px;
+    height: 326px;
+    object-fit: cover;
+}
+.container{
+   max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
 
 .mH2{
@@ -142,4 +160,32 @@ h1{
     width: 100%;
     height: 100vh;
     position: relative;
+}
+
+.card{
+    position: relative;
+    display: block;
+    color: white;
+    border-radius: 23px;
+}
+
+.card img{
+    border-radius: 20px;
+
+}
+.card h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.stycky{
+    position: sticky;
+    top: 20%;
+}
+
+.filigram{
+    position: fixed;
 }
