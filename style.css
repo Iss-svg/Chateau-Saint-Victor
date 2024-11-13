@@ -188,4 +188,25 @@ h1{
 
 .filigram{
     position: fixed;
+    top: 192px;
+    left: 0px;
+    z-index: -1;
+}
+
+.pardive{
+    background-color: #B9625D;
+}
+
+.divpart{
+    width: 40%;
+}
+
+.divpart h4{
+    
+}
+.margeT{
+    margin: 40px;
+}
+.margeT img{
+    border-radius: 12px;
 }
