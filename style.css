@@ -202,11 +202,13 @@ h1{
 }
 
 .divpart h4{
-    
+    margin-bottom: 15px;
 }
 .margeT{
-    margin: 40px;
+    margin: 70px;
+    
 }
 .margeT img{
     border-radius: 12px;
 }
+
