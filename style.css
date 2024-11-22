@@ -5,6 +5,9 @@
     box-sizing: border-box;/*permet aux boite de ne pas grossire quand l'on met du padding*/
 }
 
+html{
+    scroll-behavior: smooth;
+}
 .col{
     color: #B9625D;
 }
