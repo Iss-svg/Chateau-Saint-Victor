@@ -22,7 +22,10 @@ body{
     justify-content: space-between;
 }
 
-
+section, footer{
+   
+    padding: 64px 0px;
+}
 .alignCenter{
     align-items: center;
 }
@@ -35,6 +38,26 @@ li{
     list-style: none;
 }
 
+.width30{
+    width: 30%
+}
+
+.width45{
+    width: 45%;
+}
+.width40{
+    width: 40%;
+}
+.width60{
+    width: 60%;
+}
+.width70{
+    width: 70%;
+}
+
+.margB{
+    margin-bottom: 32px;
+}
 .btn{ 
     background-color: #B9625D;
     padding: 16px 55px;
@@ -125,9 +148,19 @@ h1{
 
 .containerService aside{
    /* background-color: aqua;*/
-    width: 15%;
+    width: 20%;
     
 
+}
+
+.containerService aside a{
+    margin-bottom: 8px;
+    color: #000;
+    text-decoration: underline;
+}
+.containerService aside p{
+    font-weight: 700;
+    margin-bottom: 16px;
 }
  
 .containerService img{
@@ -196,14 +229,22 @@ h1{
     z-index: -1;
 }
 
+/*Couleur d'arriere plan*/
 .pardive{
     background-color: #B9625D;
     color: white;
+}
+.mln{
+   
+  font-size: 30px;
+ 
+  font-weight: 700;
 }
 
 .divpart{
     width: 40%;
 }
+
 
 .divpart h4{
     margin-bottom: 15px;
@@ -218,6 +259,7 @@ h1{
 
 .text{
     text-align: center;
+    margin-top: 16px;
 }
 
 .contain{
@@ -229,5 +271,27 @@ h1{
 .contain p{
     width: 46%;
    margin-top: 20px;
+}
+
+
+/*Couleur d'arriere plan*/
+.bg-pink{
+    background-color: #B9625D;
+    /*tous les textes sur fonds rose sont blancs*/
+    color:#fff;
+}
+
+
+/*footer*/
+footer{
+    color: #fff;
+}
+footer a{
+    display:block ;
+    color: #fff;
+    text-decoration: none;
+}
+footer nav ul li, footer address p, footer address a{
+    margin-bottom: 8px;
 }
  
